@@ -27,9 +27,9 @@ Creating initial database schema
 ```
 1.1	Copying Plugin file to Metasploit
 
-**strike.rb** should be copied under **plugins directory of the metaslpoit installation**. In most cases this directory is under: /usr/share/metasploit/plugins on Kali installations
+**cveautomatcher.rb** should be copied under **plugins directory of the metaslpoit installation**. In most cases this directory is under: /usr/share/metasploit/plugins on Kali installations
 
-After successfull connection to metasploit be sure that database is set and nessus results imported
+After successfull connection to metasploit be sure that database is set and any scanner results were imported
 
 `msf6 > db_stats`
 
